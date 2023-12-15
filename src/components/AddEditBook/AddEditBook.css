@@ -1,0 +1,52 @@
+/* AddEditBook.css */
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left; /* Выравнивание текста label по левому краю */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+}
+
+button.delete-btn {
+  background-color: #ff0000;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

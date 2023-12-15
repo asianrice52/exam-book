@@ -1,0 +1,37 @@
+/* ListBooks.css */
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  max-width: 300px; /* Set a maximum width for better readability */
+  box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
+
+.delete-btn {
+  color: #ff0000;
+  cursor: pointer;
+  margin-left: 1rem;
+}
